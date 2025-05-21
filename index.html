@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seirama : Hashimoto Seira</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Just an ordinary girl who loves surfing the internet and visiting interesting websites. But one day, after clicking a mysterious ad that suddenly popped up on my phone, I ended up getting sucked into a virtual world. While figuring out how to escape, I’ll be playing games and chatting with all of you!">
+    <meta name="keywords" content="Hashimoto Seira, hashimoto seira, virtual youtuber, vtuber, vtuber id, indonesia, vtuber indonesia, seirama, hashimoto, seira">
+    <meta property="og:title" content="Seirama : Hashimoto Seira">
+    <meta property="og:description" content="An ordinary girl who enjoys browsing the internet and visiting interesting websites. But one day, after clicking a mysterious ad that suddenly popped up on my phone, I ended up getting sucked into a virtual world.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://seirama.rf.gd">
+    <meta property="og:image" content="https://seirama.rf.gd/assets/img/hashimotoseira.png">
+    <link rel="icon" href="assets/img/hashimotoseira.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="min-h-screen">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-opacity-80 backdrop-blur-md bg-gray-900 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <span class="text-2xl font-bold gradient-text">Seirama</span>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="text-white hover:text-pink-400 px-3 py-2 rounded-md text-sm font-medium transition-all">Home</a>
+                        <a href="#about" class="text-white hover:text-pink-400 px-3 py-2 rounded-md text-sm font-medium transition-all">About</a>
+                        <a href="#schedule" class="text-white hover:text-pink-400 px-3 py-2 rounded-md text-sm font-medium transition-all">Schedule</a>
+                        <a href="#discord" class="text-white hover:text-pink-400 px-3 py-2 rounded-md text-sm font-medium transition-all">Community</a>
+                        <a href="#contact" class="text-white hover:text-pink-400 px-3 py-2 rounded-md text-sm font-medium transition-all">Contact</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-900 bg-opacity-95">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home" class="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-800">Home</a>
+                <a href="#about" class="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-800">About</a>
+                <a href="#schedule" class="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-800">Schedule</a>
+                <a href="#discord" class="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-800">Community</a>
+                <a href="#contact" class="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-800">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg min-h-screen flex items-center justify-center pt-16 pb-20 px-4">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div class="text-center md:text-left fade-in">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6">
+                    <span class="gradient-text">Hashimoto Seira</span>
+                </h1>
+                <h2 class="text-2xl md:text-3xl font-medium mb-6">A Vtuber from Indonesia</h2>
+                <p class="text-lg mb-8 max-w-lg opacity-90">
+                    Just an ordinary girl who loves surfing the internet and visiting interesting websites. But one day, after clicking a mysterious ad that suddenly popped up on my phone, I ended up getting sucked into a virtual world. While figuring out how to escape, I’ll be playing games and chatting with all of you!
+                </p>
+                <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+                    <a href="https://discord.gg/GWtJMKASMT" class="btn-primary text-white font-bold py-3 px-8 rounded-full">
+                        Join Community
+                    </a>
+                    <a href="#schedule" class="bg-white text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition-all">
+                        Latest stream & Schedule
+                    </a>
+                </div>
+                <div class="flex justify-center md:justify-start gap-6 mt-8">
+                    <a href="https://x.com/hashimoto_seira" class="social-icon text-2xl text-white hover:text-pink-400"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/@HashimotoSeiraVTuber" class="social-icon text-2xl text-white hover:text-pink-400"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100087930163943" class="social-icon text-2xl text-white hover:text-pink-400"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.tiktok.com/@hashimoto.seira2" class="social-icon text-2xl text-white hover:text-pink-400"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://virtualyoutuber.fandom.com/wiki/Hashimoto_Seira" class="social-icon text-2xl text-white hover:text-pink-400"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <img src="assets/img/20230911_054602.png" alt="Hashimoto Seira" class="vtuber-avatar w-full max-w-md">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 bg-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16 gradient-text">About Seira</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+                <div class="order-2 md:order-1">
+                    <h3 class="text-3xl font-bold mb-6">Who is Hashimoto Seira?</h3>
+                    <p class="text-lg mb-6 opacity-90">
+                        Just an ordinary girl who loves surfing the internet and visiting interesting websites. But one day, 
+                        after clicking a mysterious ad that suddenly popped up on my phone, I ended up getting sucked into a virtual world. 
+                        While figuring out how to escape, I’ll be playing games and chatting with all of you!
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="bg-gray-800 px-4 py-2 rounded-full">
+                            <span class="text-pink-400 mr-2"><i class="fas fa-gamepad"></i></span>
+                            <span>Gaming</span>
+                        </div>
+                        <div class="bg-gray-800 px-4 py-2 rounded-full">
+                            <span class="text-blue-400 mr-2"><i class="fas fa-music"></i></span>
+                            <span>Just Chatting</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-1 md:order-2 flex justify-center">
+                    <img src="assets/img/xrge0cpy3997yvwy8.png" alt="Seira About" class="rounded-xl w-full max-w-md border-4 border-pink-400 transform rotate-3 hover:rotate-0 transition-transform duration-500">
+                </div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 mt-16">
+                <div class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-all">
+                    <div class="text-pink-400 text-4xl mb-4"><i class="fas fa-heart"></i></div>
+                    <h4 class="text-xl font-bold mb-3">Wholesome Content</h4>
+                    <p class="opacity-90">A positive space for everyone to enjoy games and make new friends.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-all">
+                    <div class="text-blue-400 text-4xl mb-4"><i class="fas fa-users"></i></div>
+                    <h4 class="text-xl font-bold mb-3">Interactive Community</h4>
+                    <p class="opacity-90">Engage with Seira and other fans through live chats and events.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-all">
+                    <div class="text-purple-400 text-4xl mb-4"><i class="fas fa-star"></i></div>
+                    <h4 class="text-xl font-bold mb-3">Unique Personality</h4>
+                    <p class="opacity-90">A blend of cosmic energy and feline charm you won't find anywhere else.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Streaming Schedule -->
+    <section id="schedule" class="py-20 px-4 bg-gray-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="mt-16">
+                <h3 class="text-2xl font-bold text-center mb-8 gradient-text">Latest Streams</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-gray-900 rounded-xl overflow-hidden stream-highlight">
+                        <img src="assets/img/xrge0cpy3997yvwy8.png" alt="Announcement Stream" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="text-sm font-medium text-pink-400">May 27/28, 2025</span>
+                                <span class="text-xs bg-blue-500 text-white px-2 py-1 rounded">YouTube</span>
+                            </div>
+                            <h4 class="text-xl font-bold mb-2">Announcement Stream</h4>
+                            <p class="text-sm opacity-90">
+                                Hai, long time no see. Aku akan benar-benar kembali tanggal 27/28 di bulan ini<br/>
+                                Akan ada live stream untuk menjelaskan apa yang sebenarnya terjadi dan suatu keputusan besar.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-900 rounded-xl overflow-hidden">
+                        <img src="assets/img/streamA.jpg" alt="MENGKHILAF - UNBOXING MERCH, udah ketebak apaan, [HASHIMOTO SEIRA] #vtuber #vtuberid #vtuberindonesia" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="text-sm font-medium text-pink-400">Apr 4, 2025</span>
+                                <span class="text-xs bg-blue-500 text-white px-2 py-1 rounded">YouTube</span>
+                            </div>
+                            <h4 class="text-xl font-bold mb-2">MENGKHILAF - UNBOXING MERCH"udah ketebak apaan"[HASHIMOTO SEIRA] #vtuber #vtuberid #vtuberindonesia</h4>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-900 rounded-xl overflow-hidden">
+                        <img src="assets/img/streamB.jpg" alt="VTUBER NGUPAT? HASHIMOTO SEIRA #vtuber #vtuberid #vtuberindonesia" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="text-sm font-medium text-pink-400">Mar 28, 2025</span>
+                                <span class="text-xs bg-blue-500 text-white px-2 py-1 rounded">YouTube</span>
+                            </div>
+                            <h4 class="text-xl font-bold mb-2">VTUBER NGUPAT? HASHIMOTO SEIRA #vtuber #vtuberid #vtuberindonesia</h4>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discord Community -->
+    <section id="discord" class="py-20 px-4 bg-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16 gradient-text">Join Our Community</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+                <div class="flex justify-center">
+                    <div class="discord-card p-8 rounded-2xl max-w-md w-full">
+                        <div class="flex items-center mb-6">
+                            <i class="fab fa-discord text-5xl mr-4 text-white"></i>
+                            <div>
+                                <h3 class="text-2xl font-bold text-white">Seirama</h3>
+                                <p class="text-white opacity-90">Official Discord Server</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white bg-opacity-10 p-4 rounded-lg mb-6">
+                            <iframe src="https://discord.com/widget?id=984458430779633664&theme=dark" width="100%" height="450" allowtransparency="true" frameborder="0"></iframe>
+                        </div>
+                        
+                        <a href="https://discord.gg/GWtJMKASMT" class="block text-center bg-white text-gray-900 font-bold py-3 px-6 rounded-lg hover:bg-gray-200 transition-all">
+                            <i class="fab fa-discord mr-2"></i> Join Discord
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-3xl font-bold mb-6">What's on the server?</h3>
+                    <div class="space-y-6">
+
+                        <div class="flex items-start">
+                            <div class="text-yellow-400 text-xl mt-1 mr-4"><i class="fas fa-gem"></i></div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-1">Talk with Seira</h4>
+                                <p class="opacity-90">You can interact with seira on #chat.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="text-blue-400 text-xl mt-1 mr-4"><i class="fas fa-bell"></i></div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-1">Stream Notification</h4>
+                                <p class="opacity-90">Get pinged when Seira goes live or schedules change.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="text-pink-400 text-xl mt-1 mr-4"><i class="fas fa-star"></i></div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-1">Exclusive Channels</h4>
+                                <p class="opacity-90">Special chat rooms for different interests and activity levels.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="text-pink-400 text-xl mt-1 mr-4"><i class="fas fa-music"></i></div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-1">Chill with the others</h4>
+                                <p class="opacity-90">You can chill and listen to music with your friends.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="text-pink-400 text-xl mt-1 mr-4"><i class="fas fa-face-smile"></i></div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-1">Use exclusive Emoji of Seira</h4>
+                                <p class="opacity-90">Enjoy chat with your friend with seira emojis.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="text-green-400 text-xl mt-1 mr-4"><i class="fas fa-robot"></i></div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-1">Feel Free to interact with bots</h4>
+                                <p class="opacity-90">You can talk with bot or use a command.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16">
+                <h3 class="text-2xl font-bold text-center mb-8 gradient-text">Community Guidelines</h3>
+                
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="bg-gray-800 p-6 rounded-xl border-l-4 border-pink-400">
+                        <h4 class="text-xl font-bold mb-3">Be Respectful</h4>
+                        <p class="opacity-90">Treat everyone with kindness. No harassment, discrimination, or hate speech.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-xl border-l-4 border-blue-400">
+                        <h4 class="text-xl font-bold mb-3">Keep It Wholesome</h4>
+                        <p class="opacity-90">This is a positive space. Keep content appropriate for all ages.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-xl border-l-4 border-purple-400">
+                        <h4 class="text-xl font-bold mb-3">No Spam</h4>
+                        <p class="opacity-90">Avoid excessive self-promotion or flooding chats with messages.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Support -->
+    <section id="contact" class="py-20 px-4 bg-gray-800">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16 gradient-text">Contact & Support</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Business Inquiries</h3>
+                    <p class="mb-6 opacity-90">
+                        For brand collaborations, sponsorships, or other business opportunities, 
+                        please contact us via email with details about your proposal.
+                    </p>
+                    <div class="bg-gray-900 p-6 rounded-xl">
+                        <div class="flex items-center mb-4">
+                            <i class="fab fa-discord text-2xl text-pink-400 mr-4"></i>
+                            <div>
+                                <h4 class="font-bold">Discord</h4>
+                                <p class="opacity-90">hashimoto_seira</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Support Seira</h3>
+                    <p class="mb-6 opacity-90">
+                        Your support helps Seira continue creating content and improving the stream quality. 
+                        Choose from these options:
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <a href="https://trakteer.id/Hashimoto_seira/tip" class="bg-gray-900 hover:bg-gray-700 p-4 rounded-xl transition-all text-center">
+                            <i class="fas fa-coins text-3xl text-yellow-500 mb-2"></i>
+                            <div class="font-bold">Trakteer</div>
+                            <div class="text-xs opacity-80">One-time Tips</div>
+                        </a>
+                        <a href="https://www.youtube.com/@HashimotoSeiraVTuber" class="bg-gray-900 hover:bg-gray-700 p-4 rounded-xl transition-all text-center">
+                            <i class="fab fa-youtube text-3xl text-purple-500 mb-2"></i>
+                            <div class="font-bold">Youtube</div>
+                            <div class="text-xs opacity-80">Hashimoto Seira</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <h3 class="text-2xl font-bold mb-6 gradient-text">Stay Connected</h3>
+                <p class="mb-8 max-w-2xl mx-auto opacity-90">
+                    Follow Hashimoto Seira on all platforms to never miss an update! Each platform has unique content.
+                </p>
+                <div class="flex justify-center gap-6 flex-wrap">
+                    <a href="https://x.com/hashimoto_seira" class="social-icon bg-gray-900 w-16 h-16 rounded-full flex items-center justify-center text-2xl hover:bg-twitter hover:text-white transition-all" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@HashimotoSeiraVTuber" class="social-icon bg-gray-900 w-16 h-16 rounded-full flex items-center justify-center text-2xl hover:bg-youtube hover:text-white transition-all" title="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100087930163943" class="social-icon bg-gray-900 w-16 h-16 rounded-full flex items-center justify-center text-2xl hover:bg-twitch hover:text-white transition-all" title="Twitch">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@hashimoto.seira2" class="social-icon bg-gray-900 w-16 h-16 rounded-full flex items-center justify-center text-2xl hover:bg-tiktok hover:text-white transition-all" title="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-12 px-4 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold gradient-text mb-4">Hashimoto Seira</h3>
+                    <p class="opacity-90 mb-4">
+                        An ordinary girl who enjoys browsing the internet and visiting interesting websites. But one day, after clicking a mysterious ad that suddenly popped up on my phone, I ended up getting sucked into a virtual world.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="https://x.com/hashimoto_seira" class="text-white hover:text-pink-400"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/@HashimotoSeiraVTuber" class="text-white hover:text-pink-400"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100087930163943" class="text-white hover:text-pink-400"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@hashimoto.seira2" class="text-white hover:text-pink-400"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="opacity-90 hover:text-pink-400 transition-all">Home</a></li>
+                        <li><a href="#about" class="opacity-90 hover:text-pink-400 transition-all">About</a></li>
+                        <li><a href="#schedule" class="opacity-90 hover:text-pink-400 transition-all">Schedule</a></li>
+                        <li><a href="#discord" class="opacity-90 hover:text-pink-400 transition-all">Community</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Resources</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="opacity-90 hover:text-pink-400 transition-all">FAQ</a></li>
+                        <li><a href="#" class="opacity-90 hover:text-pink-400 transition-all">Rules</a></li>
+                        <li><a href="#" class="opacity-90 hover:text-pink-400 transition-all">Privacy Policy</a></li>
+                        <li><a href="#" class="opacity-90 hover:text-pink-400 transition-all">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Newsletter</h4>
+                    <p class="opacity-90 mb-4">
+                        Subscribe for monthly updates, exclusive content, and behind-the-scenes!
+                    </p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your email" class="bg-gray-800 text-white px-4 py-2 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-pink-400 w-full">
+                        <button type="submit" class="bg-pink-500 text-white px-4 py-2 rounded-r-lg hover:bg-pink-600 transition-all">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 text-center opacity-70">
+                <p>&copy; 2025 Hashimoto Seira & taufik. All rights reserved.</p>
+                <p class="text-xs mt-2">Vtuber from Indonesia. Using PNG avatar for live streaming, Live2D coming soon.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    mobileMenu.classList.add('hidden');
+                    
+                    // Scroll to target
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Animation on scroll
+        const fadeElements = document.querySelectorAll('.fade-in');
+        
+        const fadeInOnScroll = function() {
+            fadeElements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (elementTop < windowHeight - 100) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        };
+        
+        // Run once on load
+        fadeInOnScroll();
+        
+        // Run on scroll
+        window.addEventListener('scroll', fadeInOnScroll);
+        
+        // Floating animation for avatar
+        const avatar = document.querySelector('.vtuber-avatar');
+        
+        if (avatar) {
+            setInterval(() => {
+                const currentTransform = window.getComputedStyle(avatar).getPropertyValue('transform');
+                avatar.style.transform = currentTransform === 'none' ? 
+                    'translateY(-20px) rotate(2deg)' : 
+                    'translateY(0) rotate(-2deg)';
+            }, 3000);
+        }
+        
+        // Discord member count animation
+        const memberCount = document.querySelector('.members-count');
+        if (memberCount) {
+            setTimeout(() => {
+                memberCount.style.animation = 'none';
+            }, 2000);
+        }
+    </script>
+</body>
+</html>
